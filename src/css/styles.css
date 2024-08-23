@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color:  hsl(30, 38%, 92%);
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    margin: 10% auto;
+    overflow: hidden;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    
+    border-radius: 0px 10px 10px 0px;
+    width: 610px;
+    height: 435px;
+}
+
+img {
+    width: 330px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.container {
+    margin: 4%;
+}
+
+.container .title h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 10%;
+}
+
+.container .title h1 {
+    font-family: "Fraunces", serif;
+    font-weight: bold;
+    color: hsl(212, 21%, 14%);
+    font-size: 30px;
+    width: 190px;
+    line-height: 28px;
+    margin-bottom: 10%;
+}
+
+.container .description {
+    font-family: "Fraunces", serif;
+    font-size: 15px;
+    width: 229px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 1px;
+    margin-bottom: 15%;
+}
+
+.container .price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 175px;
+    font-family: "Fraunces", serif;
+    align-items: center;
+    margin-bottom: 8%;
+}
+
+.container .price .price {
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+}
+
+.container .price .off {
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.container button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    padding: 15px 70px;
+}
+
+.container button:hover {
+    cursor: pointer;
+    background-color: hsl(158, 36%, 37%);
+    opacity: 0.9;
+}
+
+
+.container .button img {
+    width: 13px;
+}
+
+
+
+
+
+
+

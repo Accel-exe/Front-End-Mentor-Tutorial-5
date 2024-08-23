@@ -1,0 +1,25 @@
+@media screen and (max-width:425px) {
+    body {
+        
+    }
+    
+    main{
+        margin: 5%;
+        flex-direction: column;
+        width: 250px;
+        height: auto;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    #img {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .container, .container .title h2, .container .title h1, .container .description, .container .price {
+        margin: 5%;
+    }
+    
+}
+
